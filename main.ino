@@ -25,7 +25,7 @@ void setup() {
     while (1);
   }
   Serial.println("card initialized.");
-  dataFile = SD.open("d_test.csv",FILE_WRITE);
+  dataFile = SD.open("d_log.csv",FILE_WRITE);
 }
 
 void loop(void) {
