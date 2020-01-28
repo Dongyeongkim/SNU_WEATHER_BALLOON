@@ -119,7 +119,7 @@ void loop(void) {
   celsius = (float)raw / 16.0;
   if(dataFile){
     Datastring = String(celsius)+",";
-    dataFile.println("\n"+Datastring);
+    dataFile.print("\n"+Datastring);
     Serial.println(Datastring);
     dataFile.flush();
   }
